@@ -1,6 +1,8 @@
 # ImagePaintTest
 ImagePaint background style appears to be broken on iOS 17
 
+Radar Filed: FB13138356
+
 Image
 
 - Left iOS16.4 simulator correctly painting the image into the background.
