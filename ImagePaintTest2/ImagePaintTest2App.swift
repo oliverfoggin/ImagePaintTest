@@ -14,10 +14,10 @@ struct ImagePaintTest2App: App {
 			VStack {
 				ContentView()
 					.background(Color.white)
-	        }
-	        .frame(maxWidth: .greatestFiniteMagnitude, maxHeight: .greatestFiniteMagnitude)
-	        .background()
-	        .backgroundStyle(ImagePaint(image: Image("Image")))
-        }
-    }
+			}
+			.frame(maxWidth: .greatestFiniteMagnitude, maxHeight: .greatestFiniteMagnitude)
+			.background()
+			.backgroundStyle(ImagePaint(image: Image("Image")))
+		}
+	}
 }
