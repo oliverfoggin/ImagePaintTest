@@ -26,5 +26,5 @@ struct ContentView: View {
 	}
 	.frame(maxWidth: .greatestFiniteMagnitude, maxHeight: .greatestFiniteMagnitude)
 	.background()
-	.backgroundStyle(ImagePaint(image: Image("Image"), scale: 0.004))
+	.backgroundStyle(ImagePaint(image: Image("Image")))
 }
